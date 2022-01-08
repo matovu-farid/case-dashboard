@@ -1,44 +1,43 @@
 html {
-    box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
-    text-align: center;
+  text-align: center;
 }
-form,fieldset {
-    display: flex;
-    flex-direction: column;
 
+form,
+fieldset {
+  display: flex;
+  flex-direction: column;
 }
 
 form {
-    
-    align-items: center;
+  align-items: center;
 }
 
 input {
-    width: 230px;
-    height: 30px;
-    border-radius: 5px;
-    border: 2px solid rgb(140, 0, 255);
-
+  width: 230px;
+  height: 30px;
+  border-radius: 5px;
+  border: 2px solid rgb(140, 0, 255);
 }
 
 fieldset > input {
-    width: 200px;
+  width: 200px;
 }
 
 button {
-    background-color: rgb(255, 47, 144);
-    color: white;
-    border: 0;
-    margin-top: 20px;
-    padding: 10px;
+  background-color: rgb(255, 47, 144);
+  color: white;
+  border: 0;
+  margin-top: 20px;
+  padding: 10px;
 }

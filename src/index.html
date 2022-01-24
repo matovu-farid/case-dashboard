@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Case Dashboard</title>
+
+</head>
+<body>
+    
+        
+        
+    
+    <main>
+        <header>
+            <h1>Case Dashboard</h1>
+        </header>
+        <section class='view no-display' id="providers-section">
+            <div class="spacer">
+
+                <p class='switch' id="add-providers">Add New Health Providers</p>
+                <button class='button' id="clear-providers">Clear Providers</button>
+            </div>
+            <ul class='provider-list'>
+            </ul>
+        </section>
+        
+        <section id="add-provider-section">
+            <div class="spacer">
+
+                <p class='switch button' id="view-providers">View Health Providers</p>
+                <button class='button' id="maps">Go to Maps</button>
+            </div>
+            
+
+            <form  method="post" novalidate>
+                <label for="name">Hospital Name</label>
+                <input type="text" id="name" name="name" class="input" required>
+                <div id="name-error" class="error"></div>
+                <label for="contact" >Contact</label>
+                <input type="text" id="contact" name="contact" class="input" required>
+                <div id="contact-error" class="error"></div>
+                <fieldset>
+                   <legend>Location</legend> 
+                   <label for="latitude">Latitude</label>
+                   <input type="text" id="latitude" name="latitude" class="input" placeholder="1.3733"  required pattern="\d{1}\.\d+">
+                   <div id="latitude-error" class="error"></div>
+                   <label for="longitude">Longitude</label>
+                   <input type="text" id="longitude" name="longitude" class="input" placeholder="32.2903" required pattern="3\d{1}\.\d+">
+                   <div id="longitude-error" class="error"></div>
+                </fieldset>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        <script src="bundle.js"></script>
+        
+        
+    </main>    
+</body>
+</html>

@@ -7,9 +7,9 @@
     "build": "rollup -c rollup.config.js --watch",
     "test": "echo \"Error: no test specified\" && exit 1",
     "style": "npx stylelint \"**/*.{css,scss}\" --fix",
+    "start": "webpack serve --open",
     "hint": "npx hint .",
-    "lint": "npx eslint . --fix",
-    "start": "npx webpack serve"
+    "lint": "npx eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -22,26 +22,33 @@
   },
   "homepage": "https://github.com/matovu-farid/case-dashboard#readme",
   "devDependencies": {
-    "@babel/core": "^7.16.7",
+    "@babel/core": "^7.16.12",
     "@babel/plugin-transform-runtime": "^7.16.7",
-    "@babel/preset-env": "^7.16.7",
+    "@babel/preset-env": "^7.16.11",
     "@rollup/plugin-node-resolve": "^13.1.3",
     "babel-eslint": "^10.1.0",
     "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-plugin-import": "^2.25.4",
-    "hint": "^6.1.9",
+    "hint": "^6.1.3",
+    "html-webpack-plugin": "^5.5.0",
     "rollup": "^2.63.0",
+    "style-loader": "^3.3.1",
     "stylelint": "^14.2.0",
     "stylelint-config-standard": "^24.0.0",
     "stylelint-csstree-validator": "^2.0.0",
-    "stylelint-scss": "^4.1.0"
+    "stylelint-scss": "^4.1.0",
+    "ts-loader": "^9.2.6",
+    "webpack": "^5.67.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.3"
   },
   "dependencies": {
     "@babel/plugin-syntax-top-level-await": "^7.14.5",
     "geofire-common": "^5.2.0",
-    "geofirex-af": "^1.0.0",
+    "geofirex-af": "^0.1.0",
     "html-webpack-plugin": "^5.5.0"
   }
 }

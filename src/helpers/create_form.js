@@ -1,12 +1,12 @@
 import { geohashForLocation } from 'geofire-common';
 import {
-  collection, addDoc, GeoPoint, doc, getFirestore,
+  collection, addDoc, GeoPoint,
 } from 'firebase/firestore';
-import { app, db } from '../app';
+import { db } from '../app';
 
 export const form = document.querySelector('form');
 
-const getPosition = (form) => {
+export const getPosition = (form) => {
   const latitude = parseFloat(form.latitude.value);
   const longitude = parseFloat(form.longitude.value);
   const hash = geohashForLocation([latitude, longitude]);

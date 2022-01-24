@@ -24,7 +24,7 @@ To get the content of this project locally you need to run this command in your 
 
 ### Deployment
 This project is deployed on a github page on the link below:
-- https://matovu-farid.github.io/case-dashboard/
+- https://caseapp-8a255.web.app
 ## Author
 
 👤 **Matovu Farid Nkoba**

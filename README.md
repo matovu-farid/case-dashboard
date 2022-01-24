@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# To-Do-List
+# case-dashboard
 
 This is a dashboard for the CaseMedInsurance app. The dashboard is used to enter hospital names as well as coordidates and they are entered into the database. The font end is built with JavaScript html and css and bundled with webpack. It connects to the firebase backend.
 

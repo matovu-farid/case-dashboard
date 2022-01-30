@@ -17,13 +17,3 @@ export const addRemoveMethods = () => {
   });
 };
 
-export const callAllRemoveMethods = () => {
-  const removeButtons = document.querySelectorAll('.remove');
-
-  removeButtons.forEach((button) => {
-    const event = new Event('click');
-    button.dispatchEvent(event);
-
-    button.click();
-  });
-};

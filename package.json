@@ -4,7 +4,7 @@
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "main": "index.js",
   "scripts": {
-    "build": "rollup -c rollup.config.js --watch",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1",
     "style": "npx stylelint \"**/*.{css,scss}\" --fix",
     "start": "webpack serve --open",

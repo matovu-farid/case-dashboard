@@ -6,6 +6,7 @@ import './helpers/providers';
 import './helpers/switch_view';
 import './helpers/remove_methods';
 import './helpers/validation';
+import './helpers/edit_providers'
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 

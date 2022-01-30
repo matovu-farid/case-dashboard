@@ -1,6 +1,6 @@
 import { collection, getDocs } from 'firebase/firestore';
 import { createHospitalmarkup } from './markup';
-import {addEditListener} from './edit_providers'
+import { addEditListener } from './edit_providers';
 import { db } from '../app';
 import addRemoveMethods from './remove_methods';
 

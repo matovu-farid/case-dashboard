@@ -1,5 +1,6 @@
 // Import the functions you need from the SDKs you need
-
+import 'core-js/stable';
+import 'regenerator-runtime/runtime';
 import './helpers/create_form';
 import './helpers/providers';
 import './helpers/switch_view';

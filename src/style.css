@@ -6,6 +6,16 @@ main {
   width: 100%;
 }
 
+button {
+  background-color: rgb(255 47 144);
+  color: white;
+  border: 0;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
 li {
   list-style-type: none;
   display: flex;
@@ -17,10 +27,8 @@ li:hover {
   cursor: pointer;
 }
 
-li:nth-child(odd){
-  background-color: rgb(164, 153, 173);
-  
-  
+li:nth-child(odd) {
+  background-color: rgb(164 153 173);
 }
 
 li > button {
@@ -59,56 +67,43 @@ input {
   width: 230px;
   height: 30px;
   border-radius: 5px;
-  border: 2px solid rgb(140, 0, 255);
-}
-
-input:focus {
-  border: 2px solid rgb(140, 0, 255);
-}
-
-input:active {
-  border: 2px solid rgb(140, 0, 255);
-}
-.invalid {
-  border: red 2px solid;
-}
-
-.error {
-  color: rgb(228, 102, 102);
-
-}
-
-
-
-
-
-.switch {
-  color: rgb(140, 0, 255);
-}
-
-
-.valid {
-  border: 2px solid rgb(140, 0, 255);
+  border: 2px solid rgb(140 0 255);
 }
 
 fieldset > input {
   width: 200px;
 }
 
-button {
-  background-color: rgb(255, 47, 144);
-  color: white;
-  border: 0;
-  margin-top: 20px;
-  border-radius: 5px;
-  padding: 10px;
+input:focus {
+  border: 2px solid rgb(140 0 255);
+}
+
+input:active {
+  border: 2px solid rgb(140 0 255);
+}
+
+.switch {
+  color: rgb(140 0 255);
+  padding: 30px;
   cursor: pointer;
+  position: sticky;
+}
+
+.invalid {
+  border: red 2px solid;
+}
+
+.error {
+  color: rgb(228 102 102);
+}
+
+.valid {
+  border: 2px solid rgb(140 0 255);
 }
 
 .spacer {
   display: flex;
   justify-content: space-between;
- 
 }
 
 .spacer > .switch {
@@ -118,10 +113,3 @@ button {
 .no-display {
   display: none;
 }
-
-.switch {
-  padding: 30px;
-  cursor: pointer;
-  position: sticky;
-}
-

@@ -1,7 +1,7 @@
 import { deleteDoc, doc } from 'firebase/firestore';
 import { db } from '../app';
 
-export const addRemoveMethods = () => {
+const addRemoveMethods = () => {
   const removeButtons = document.querySelectorAll('.remove');
 
   removeButtons.forEach((button) => {
@@ -17,3 +17,4 @@ export const addRemoveMethods = () => {
   });
 };
 
+export { addRemoveMethods as default };
